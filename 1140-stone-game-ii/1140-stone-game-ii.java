@@ -1,35 +1,29 @@
 class Solution {
-    private int dfs(int i, int m, int[] piles, Map<Integer, Integer> memo) {
-        int n = piles.length;
-
-        if (i + m * 2 >= n)
-            return piles[i];
-
-        int key = (i << 8) | m;
-
-        if (memo.containsKey(key))
-            return memo.get(key);
-
-        int res = Integer.MAX_VALUE;
-
-        for (int k = 1; k <= m * 2; k++)
-            res = Math.min(res, dfs(i + k, Math.max(m, k), piles, memo));
-
-        int val = piles[i] - res;
-        
-        memo.put(key, val);
-
-        return val;
-    }
-
     public int stoneGameII(int[] piles) {
         int n = piles.length;
+        int[] suffixSum = new int[n];
+        suffixSum[n - 1] = piles[n - 1];
+        for (int i = n - 2; i >= 0; i--) {
+            suffixSum[i] = suffixSum[i + 1] + piles[i];
+        }
 
-        for (int i = n - 2; i >= 0; i--)
-            piles[i] += piles[i + 1];
+        int[][] memo = new int[n][n + 1];
+        return dfs(piles, suffixSum, 0, 1, memo);
+    }
 
-        Map<Integer, Integer> memo = new HashMap<>();
+    private int dfs(int[] piles, int[] suffixSum, int i, int M, int[][] memo) {
+        if (i >= piles.length) return 0;
+        if (i + 2 * M >= piles.length) return suffixSum[i];
+        if (memo[i][M] != 0) return memo[i][M];
 
-        return dfs(0, 1, piles, memo);
+        int maxStones = 0;
+        for (int X = 1; X <= 2 * M; X++) {
+            int nextM = Math.max(M, X);
+            int opponentStones = dfs(piles, suffixSum, i + X, nextM, memo);
+            maxStones = Math.max(maxStones, suffixSum[i] - opponentStones);
+        }
+
+        memo[i][M] = maxStones;
+        return maxStones;
     }
 }
