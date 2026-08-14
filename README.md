@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/arghyaroy331/Daily-Coding/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/arghyaroy331/Daily-Coding/tree/master/0209-minimum-size-subarray-sum) |
 | [0486-predict-the-winner](https://github.com/arghyaroy331/Daily-Coding/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/arghyaroy331/Daily-Coding/tree/master/0628-maximum-product-of-three-numbers) |
@@ -147,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/arghyaroy331/Daily-Coding/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/arghyaroy331/Daily-Coding/tree/master/0209-minimum-size-subarray-sum) |
 | [3312-sorted-gcd-pair-queries](https://github.com/arghyaroy331/Daily-Coding/tree/master/3312-sorted-gcd-pair-queries) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/arghyaroy331/Daily-Coding/tree/master/3501-maximize-active-section-with-trade-ii) |
@@ -155,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/arghyaroy331/Daily-Coding/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/arghyaroy331/Daily-Coding/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/arghyaroy331/Daily-Coding/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/arghyaroy331/Daily-Coding/tree/master/3867-sum-of-gcd-of-formed-pairs) |
