@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/arghyaroy331/Daily-Coding/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/arghyaroy331/Daily-Coding/tree/master/0209-minimum-size-subarray-sum) |
 | [0283-move-zeroes](https://github.com/arghyaroy331/Daily-Coding/tree/master/0283-move-zeroes) |
+| [0287-find-the-duplicate-number](https://github.com/arghyaroy331/Daily-Coding/tree/master/0287-find-the-duplicate-number) |
 | [0486-predict-the-winner](https://github.com/arghyaroy331/Daily-Coding/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/arghyaroy331/Daily-Coding/tree/master/0628-maximum-product-of-three-numbers) |
 | [0713-subarray-product-less-than-k](https://github.com/arghyaroy331/Daily-Coding/tree/master/0713-subarray-product-less-than-k) |
@@ -194,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/arghyaroy331/Daily-Coding/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/arghyaroy331/Daily-Coding/tree/master/0209-minimum-size-subarray-sum) |
+| [0287-find-the-duplicate-number](https://github.com/arghyaroy331/Daily-Coding/tree/master/0287-find-the-duplicate-number) |
 | [0713-subarray-product-less-than-k](https://github.com/arghyaroy331/Daily-Coding/tree/master/0713-subarray-product-less-than-k) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/arghyaroy331/Daily-Coding/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3312-sorted-gcd-pair-queries](https://github.com/arghyaroy331/Daily-Coding/tree/master/3312-sorted-gcd-pair-queries) |
@@ -211,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/arghyaroy331/Daily-Coding/tree/master/0142-linked-list-cycle-ii) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/arghyaroy331/Daily-Coding/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0283-move-zeroes](https://github.com/arghyaroy331/Daily-Coding/tree/master/0283-move-zeroes) |
+| [0287-find-the-duplicate-number](https://github.com/arghyaroy331/Daily-Coding/tree/master/0287-find-the-duplicate-number) |
 | [0344-reverse-string](https://github.com/arghyaroy331/Daily-Coding/tree/master/0344-reverse-string) |
 | [0876-middle-of-the-linked-list](https://github.com/arghyaroy331/Daily-Coding/tree/master/0876-middle-of-the-linked-list) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/arghyaroy331/Daily-Coding/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
@@ -235,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0287-find-the-duplicate-number](https://github.com/arghyaroy331/Daily-Coding/tree/master/0287-find-the-duplicate-number) |
 | [1386-cinema-seat-allocation](https://github.com/arghyaroy331/Daily-Coding/tree/master/1386-cinema-seat-allocation) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/arghyaroy331/Daily-Coding/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/arghyaroy331/Daily-Coding/tree/master/3513-number-of-unique-xor-triplets-i) |
@@ -371,4 +375,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0141-linked-list-cycle](https://github.com/arghyaroy331/Daily-Coding/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/arghyaroy331/Daily-Coding/tree/master/0142-linked-list-cycle-ii) |
+| [0287-find-the-duplicate-number](https://github.com/arghyaroy331/Daily-Coding/tree/master/0287-find-the-duplicate-number) |
+## Pigeonhole Principle
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/arghyaroy331/Daily-Coding/tree/master/0287-find-the-duplicate-number) |
 <!---LeetCode Topics End-->
