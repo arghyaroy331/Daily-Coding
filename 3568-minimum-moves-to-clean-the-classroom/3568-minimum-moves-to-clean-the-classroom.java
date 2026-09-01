@@ -1,69 +1,142 @@
 class Solution {
-    public int minMoves(String[] classroom, int energy) {
-        int m = classroom.length;
-        int n = classroom[0].length();
-        int[][] litterMap = new int[m][n];
-        int startX = -1, startY = -1;
-        int litterCount = 0;
-        
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                char c = classroom[i].charAt(j);
-                if (c == 'S') {
-                    startX = i;
-                    startY = j;
-                } else if (c == 'L') {
-                    litterMap[i][j] = litterCount++;
+
+    class node {
+        int i;
+        int j;
+        int step;
+        int liter;
+        int energy;
+
+        public node(int i, int j, int step, int liter, int energy) {
+            this.i = i;
+            this.j = j;
+            this.step = step;
+            this.liter = liter;
+            this.energy = energy;
+        }
+    }
+
+    public int minMoves(String[] classroom, int e) {
+
+        int n = classroom.length;
+        int m = classroom[0].length();
+
+        int x = -1;
+        int y = -1;
+
+        int l = 0;
+
+        int[][] id = new int[n][m];
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                id[i][j] = -1;
+
+                char ch = classroom[i].charAt(j);
+
+                if (ch == 'S') {
+                    x = i;
+                    y = j;
+                }
+
+                if (ch == 'L') {
+                    id[i][j] = l;
+                    l++;
                 }
             }
         }
-        
-        if (litterCount == 0) return 0;
-        
-        int targetMask = (1 << litterCount) - 1;
-        Queue<int[]> q = new LinkedList<>();
-        q.offer(new int[]{startX, startY, energy, 0, 0});
-        
-        boolean[][][][] visited = new boolean[m][n][energy + 1][1 << litterCount];
-        visited[startX][startY][energy][0] = true;
-        
-        int[] dirs = {-1, 0, 1, 0, -1};
-        
-        while (!q.isEmpty()) {
-            int[] curr = q.poll();
-            int r = curr[0], c = curr[1], e = curr[2], mask = curr[3], steps = curr[4];
-            
-            for (int i = 0; i < 4; i++) {
-                int nr = r + dirs[i];
-                int nc = c + dirs[i + 1];
-                
-                if (nr >= 0 && nr < m && nc >= 0 && nc < n && classroom[nr].charAt(nc) != 'X') {
-                    int nxt_e = e - 1;
-                    int nxt_mask = mask;
-                    char nextCell = classroom[nr].charAt(nc);
-                    
-                    if (nextCell == 'L') {
-                        nxt_mask |= (1 << litterMap[nr][nc]);
-                    }
-                    
-                    if (nxt_mask == targetMask) {
-                        return steps + 1;
-                    }
-                    
-                    if (nextCell == 'R') {
-                        nxt_e = energy;
-                    }
-                    
-                    if (nxt_e == 0 && nextCell != 'R') continue;
-                    
-                    if (!visited[nr][nc][nxt_e][nxt_mask]) {
-                        visited[nr][nc][nxt_e][nxt_mask] = true;
-                        q.offer(new int[]{nr, nc, nxt_e, nxt_mask, steps + 1});
-                    }
+
+        int total = 1 << l;
+
+        int[][][] visited = new int[n][m][total];
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                for (int k = 0; k < total; k++) {
+                    visited[i][j][k] = -1;
                 }
             }
         }
-        
+
+        Queue<node> pq = new LinkedList<>();
+
+        pq.add(new node(x, y, 0, 0, e));
+
+        visited[x][y][0] = e;
+
+        int[] dx = {-1, 1, 0, 0};
+        int[] dy = {0, 0, -1, 1};
+
+        while (pq.size() > 0) {
+
+            node abc = pq.poll();
+
+            int i = abc.i;
+            int j = abc.j;
+            int step = abc.step;
+            int liter = abc.liter;
+            int energy = abc.energy;
+
+            if (classroom[i].charAt(j) == 'L') {
+                int idd = id[i][j];
+
+                liter = liter | (1 << idd);
+            }
+
+            if (liter == total - 1) {
+                return step;
+            }
+
+            if (classroom[i].charAt(j) == 'R') {
+                energy = e;
+            }
+
+            if (energy == 0) {
+                continue;
+            }
+
+            for (int d = 0; d < 4; d++) {
+
+                int ni = i + dx[d];
+                int nj = j + dy[d];
+
+                if (ni < 0 || ni >= n || nj < 0 || nj >= m) {
+                    continue;
+                }
+
+                if (classroom[ni].charAt(nj) == 'X') {
+                    continue;
+                }
+
+                int newEnergy = energy - 1;
+                int newLiter = liter;
+
+                if (classroom[ni].charAt(nj) == 'L') {
+                    int idd = id[ni][nj];
+
+                    newLiter = newLiter | (1 << idd);
+                }
+
+                if (classroom[ni].charAt(nj) == 'R') {
+                    newEnergy = e;
+                }
+
+                if (visited[ni][nj][newLiter] >= newEnergy) {
+                    continue;
+                }
+
+                visited[ni][nj][newLiter] = newEnergy;
+
+                pq.add(new node(
+                        ni,
+                        nj,
+                        step + 1,
+                        newLiter,
+                        newEnergy
+                ));
+            }
+        }
+
         return -1;
     }
 }
