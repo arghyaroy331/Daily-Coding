@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0115-distinct-subsequences](https://github.com/arghyaroy331/Daily-Coding/tree/master/0115-distinct-subsequences) |
 | [0486-predict-the-winner](https://github.com/arghyaroy331/Daily-Coding/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/arghyaroy331/Daily-Coding/tree/master/0877-stone-game) |
 | [1140-stone-game-ii](https://github.com/arghyaroy331/Daily-Coding/tree/master/1140-stone-game-ii) |
@@ -148,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0115-distinct-subsequences](https://github.com/arghyaroy331/Daily-Coding/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/arghyaroy331/Daily-Coding/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/arghyaroy331/Daily-Coding/tree/master/0344-reverse-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/arghyaroy331/Daily-Coding/tree/master/0387-first-unique-character-in-a-string) |
