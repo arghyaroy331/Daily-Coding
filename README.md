@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1406-stone-game-iii](https://github.com/arghyaroy331/Daily-Coding/tree/master/1406-stone-game-iii) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/arghyaroy331/Daily-Coding/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1563-stone-game-v](https://github.com/arghyaroy331/Daily-Coding/tree/master/1563-stone-game-v) |
+| [1749-maximum-absolute-sum-of-any-subarray](https://github.com/arghyaroy331/Daily-Coding/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 | [1872-stone-game-viii](https://github.com/arghyaroy331/Daily-Coding/tree/master/1872-stone-game-viii) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/arghyaroy331/Daily-Coding/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2029-stone-game-ix](https://github.com/arghyaroy331/Daily-Coding/tree/master/2029-stone-game-ix) |
@@ -96,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1406-stone-game-iii](https://github.com/arghyaroy331/Daily-Coding/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/arghyaroy331/Daily-Coding/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/arghyaroy331/Daily-Coding/tree/master/1563-stone-game-v) |
+| [1749-maximum-absolute-sum-of-any-subarray](https://github.com/arghyaroy331/Daily-Coding/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 | [1872-stone-game-viii](https://github.com/arghyaroy331/Daily-Coding/tree/master/1872-stone-game-viii) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/arghyaroy331/Daily-Coding/tree/master/3302-find-the-lexicographically-smallest-valid-sequence) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/arghyaroy331/Daily-Coding/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
