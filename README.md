@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1386-cinema-seat-allocation](https://github.com/arghyaroy331/Daily-Coding/tree/master/1386-cinema-seat-allocation) |
 | [1406-stone-game-iii](https://github.com/arghyaroy331/Daily-Coding/tree/master/1406-stone-game-iii) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/arghyaroy331/Daily-Coding/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/arghyaroy331/Daily-Coding/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1563-stone-game-v](https://github.com/arghyaroy331/Daily-Coding/tree/master/1563-stone-game-v) |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/arghyaroy331/Daily-Coding/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 | [1872-stone-game-viii](https://github.com/arghyaroy331/Daily-Coding/tree/master/1872-stone-game-viii) |
@@ -106,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/arghyaroy331/Daily-Coding/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
 | [1301-number-of-paths-with-max-score](https://github.com/arghyaroy331/Daily-Coding/tree/master/1301-number-of-paths-with-max-score) |
 | [1406-stone-game-iii](https://github.com/arghyaroy331/Daily-Coding/tree/master/1406-stone-game-iii) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/arghyaroy331/Daily-Coding/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1510-stone-game-iv](https://github.com/arghyaroy331/Daily-Coding/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/arghyaroy331/Daily-Coding/tree/master/1563-stone-game-v) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/arghyaroy331/Daily-Coding/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
@@ -220,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/arghyaroy331/Daily-Coding/tree/master/0387-first-unique-character-in-a-string) |
 | [1331-rank-transform-of-an-array](https://github.com/arghyaroy331/Daily-Coding/tree/master/1331-rank-transform-of-an-array) |
 | [1386-cinema-seat-allocation](https://github.com/arghyaroy331/Daily-Coding/tree/master/1386-cinema-seat-allocation) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/arghyaroy331/Daily-Coding/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/arghyaroy331/Daily-Coding/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/arghyaroy331/Daily-Coding/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/arghyaroy331/Daily-Coding/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
@@ -239,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/arghyaroy331/Daily-Coding/tree/master/0209-minimum-size-subarray-sum) |
 | [0287-find-the-duplicate-number](https://github.com/arghyaroy331/Daily-Coding/tree/master/0287-find-the-duplicate-number) |
 | [0713-subarray-product-less-than-k](https://github.com/arghyaroy331/Daily-Coding/tree/master/0713-subarray-product-less-than-k) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/arghyaroy331/Daily-Coding/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/arghyaroy331/Daily-Coding/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3312-sorted-gcd-pair-queries](https://github.com/arghyaroy331/Daily-Coding/tree/master/3312-sorted-gcd-pair-queries) |
 | [3414-maximum-score-of-non-overlapping-intervals](https://github.com/arghyaroy331/Daily-Coding/tree/master/3414-maximum-score-of-non-overlapping-intervals) |
@@ -416,6 +420,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/arghyaroy331/Daily-Coding/tree/master/0209-minimum-size-subarray-sum) |
 | [0713-subarray-product-less-than-k](https://github.com/arghyaroy331/Daily-Coding/tree/master/0713-subarray-product-less-than-k) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/arghyaroy331/Daily-Coding/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/arghyaroy331/Daily-Coding/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/arghyaroy331/Daily-Coding/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/arghyaroy331/Daily-Coding/tree/master/3090-maximum-length-substring-with-two-occurrences) |
