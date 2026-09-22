@@ -1,128 +1,130 @@
 class Solution {
-    private static class Info {
-        int[] ways;
-        int whole;
-
-        Info(int k) {
-            ways = new int[k];
-            whole = 1;
-        }
-    }
-
-    private static class SegmentTree {
-        int size;
-        int mod;
-        Info[] tree;
-
-        SegmentTree(int[] nums, int k) {
-            mod = k;
-            size = 1;
-
-            while (size < nums.length) {
-                size <<= 1;
-            }
-
-            tree = new Info[size * 2];
-
-            for (int i = 0; i < tree.length; i++) {
-                tree[i] = new Info(k);
-            }
-
-            for (int i = 0; i < nums.length; i++) {
-                int rem = nums[i] % k;
-
-                tree[size + i].ways[rem] = 1;
-                tree[size + i].whole = rem;
-            }
-
-            for (int i = size - 1; i > 0; i--) {
-                tree[i] = combine(tree[i << 1], tree[i << 1 | 1]);
-            }
-        }
-
-        private Info combine(Info left, Info right) {
-            Info merged = new Info(mod);
-
-            for (int r = 0; r < mod; r++) {
-                merged.ways[r] = left.ways[r];
-            }
-
-            for (int r = 0; r < mod; r++) {
-                if (right.ways[r] == 0) {
-                    continue;
-                }
-
-                int newRem = (left.whole * r) % mod;
-                merged.ways[newRem] += right.ways[r];
-            }
-
-            merged.whole = (left.whole * right.whole) % mod;
-
-            return merged;
-        }
-
-        void update(int index, int value) {
-            int pos = size + index;
-            int rem = value % mod;
-
-            Arrays.fill(tree[pos].ways, 0);
-            tree[pos].ways[rem] = 1;
-            tree[pos].whole = rem;
-
-            pos >>= 1;
-
-            while (pos > 0) {
-                tree[pos] = combine(
-                    tree[pos << 1],
-                    tree[pos << 1 | 1]
-                );
-
-                pos >>= 1;
-            }
-        }
-
-        Info query(int left, int right) {
-            Info leftPart = new Info(mod);
-            Info rightPart = new Info(mod);
-
-            left += size;
-            right += size;
-
-            while (left < right) {
-                if ((left & 1) != 0) {
-                    leftPart = combine(leftPart, tree[left]);
-                    left++;
-                }
-
-                if ((right & 1) != 0) {
-                    right--;
-                    rightPart = combine(tree[right], rightPart);
-                }
-
-                left >>= 1;
-                right >>= 1;
-            }
-
-            return combine(leftPart, rightPart);
-        }
-    }
-
     public int[] resultArray(int[] nums, int k, int[][] queries) {
-        SegmentTree tree = new SegmentTree(nums, k);
-        int[] answer = new int[queries.length];
+        //k = 1 is a degenerate case
 
-        for (int i = 0; i < queries.length; i++) {
-            int index = queries[i][0];
-            int value = queries[i][1];
-            int start = queries[i][2];
-            int x = queries[i][3];
+        SegmentTree st = new SegmentTree(nums, k);
 
-            tree.update(index, value);
+        int[] output = new int[queries.length];
 
-            Info result = tree.query(start, nums.length);
-            answer[i] = result.ways[x];
+        for(int i=0; i<queries.length; i++) {
+            int[] query = queries[i];
+            st.update(query[0], query[1]);
+
+            output[i] = st.query(query[2], nums.length - 1, query[3]);
         }
 
-        return answer;
+        return output;
+    }
+}
+
+class SegmentTree {
+    final int modulo;
+    final int[][] data;
+    final int[] modProd;
+    final int size;
+
+    protected SegmentTree(int[] nums, int k) {
+        modulo = k;
+        size = nums.length;
+        data = new int[size << 2 | 1][k];
+        modProd = new int[size << 2 | 1];
+
+        build(1, 0, size-1, nums);
+    }
+
+    private void build(int idx, int l, int r, int[] nums) {
+        if(l == r) {
+            data[idx][nums[l] % modulo] = 1;
+            modProd[idx] = nums[l] % modulo;
+            return;
+        }
+
+        int mid = (l + r) >> 1;
+        build(idx<<1, l, mid, nums);
+        build(idx<<1|1, mid+1, r, nums);
+
+        int[] lhs = data[idx<<1];
+        int[] rhs = data[idx<<1|1];
+
+        for(int i=0; i<modulo; i++) {
+            data[idx][i] = lhs[i];
+        }
+        for(int i=0; i<modulo; i++) {
+            data[idx][(i * modProd[idx<<1]) % modulo] += rhs[i];
+        }
+
+        modProd[idx] = (modProd[idx<<1] * modProd[idx<<1|1]) % modulo;
+    }
+
+    protected void update(int index, int val) {
+        update(1, 0, size-1, index, val);
+    }
+
+    private void update(int idx, int l, int r, int pos, int val) {
+        if(l == r) {
+            data[idx] = new int[modulo];
+            data[idx][val % modulo] = 1;
+            modProd[idx] = val % modulo;
+            return;
+        }
+
+        int mid = (l + r) >> 1;
+        if(pos <= mid) {
+            update(idx << 1, l, mid, pos, val);
+        } else {
+            update(idx<<1|1, mid+1, r, pos, val);
+        }
+
+        int[] lhs = data[idx<<1];
+        int[] rhs = data[idx<<1|1];
+
+        for(int i=0; i<modulo; i++) {
+            data[idx][i] = lhs[i];
+        }
+        for(int i=0; i<modulo; i++) {
+            data[idx][(i * modProd[idx<<1]) % modulo] += rhs[i];
+        }
+
+        modProd[idx] = (modProd[idx<<1] * modProd[idx<<1|1]) % modulo;
+    }
+
+    protected int query(int from, int to, int x) {
+        Pair res = query(1, 0, size-1, from, to);
+        return res == null ? 0 : res.data[x];
+    }
+
+    private Pair query(int idx, int l, int r, int from, int to) {
+        if(from > r || to < r) return null;
+        if(l >= from && r <= to) return new Pair(data[idx], modProd[idx]);
+
+        int mid = (l + r) >> 1;
+
+        return combine(query(idx<<1, l, mid, from, to), query(idx<<1|1, mid+1, r, from, to));
+    }
+
+    private Pair combine(Pair left, Pair right) {
+        if(left == null) return right;
+        if(right == null) return left;
+        int[] res = new int[modulo];
+        for(int i=0; i<modulo; i++) {
+            res[i] = left.data[i];
+        }
+        for(int i=0; i<modulo; i++) {
+            res[(i * left.modProd) % modulo] += right.data[i];
+        }
+
+        left.data = res;
+        left.modProd = (left.modProd * right.modProd) % modulo;
+        return left;
+    }
+
+    private static class Pair {
+        int[] data;
+        int modProd;
+
+        protected Pair(int[] data, int modProd) {
+            this.data = data;
+            this.modProd = modProd;
+        }
     }
 }
