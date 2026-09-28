@@ -156,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0202-happy-number](https://github.com/arghyaroy331/Daily-Coding/tree/master/0202-happy-number) |
+| [0412-fizz-buzz](https://github.com/arghyaroy331/Daily-Coding/tree/master/0412-fizz-buzz) |
 | [0486-predict-the-winner](https://github.com/arghyaroy331/Daily-Coding/tree/master/0486-predict-the-winner) |
 | [0628-maximum-product-of-three-numbers](https://github.com/arghyaroy331/Daily-Coding/tree/master/0628-maximum-product-of-three-numbers) |
 | [0836-rectangle-overlap](https://github.com/arghyaroy331/Daily-Coding/tree/master/0836-rectangle-overlap) |
@@ -198,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/arghyaroy331/Daily-Coding/tree/master/0125-valid-palindrome) |
 | [0344-reverse-string](https://github.com/arghyaroy331/Daily-Coding/tree/master/0344-reverse-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/arghyaroy331/Daily-Coding/tree/master/0387-first-unique-character-in-a-string) |
+| [0412-fizz-buzz](https://github.com/arghyaroy331/Daily-Coding/tree/master/0412-fizz-buzz) |
 | [0940-distinct-subsequences-ii](https://github.com/arghyaroy331/Daily-Coding/tree/master/0940-distinct-subsequences-ii) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/arghyaroy331/Daily-Coding/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1096-brace-expansion-ii](https://github.com/arghyaroy331/Daily-Coding/tree/master/1096-brace-expansion-ii) |
@@ -349,6 +351,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0412-fizz-buzz](https://github.com/arghyaroy331/Daily-Coding/tree/master/0412-fizz-buzz) |
 | [1260-shift-2d-grid](https://github.com/arghyaroy331/Daily-Coding/tree/master/1260-shift-2d-grid) |
 | [1929-concatenation-of-array](https://github.com/arghyaroy331/Daily-Coding/tree/master/1929-concatenation-of-array) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/arghyaroy331/Daily-Coding/tree/master/3069-distribute-elements-into-two-arrays-i) |
