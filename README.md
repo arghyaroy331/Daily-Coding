@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1406-stone-game-iii](https://github.com/arghyaroy331/Daily-Coding/tree/master/1406-stone-game-iii) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/arghyaroy331/Daily-Coding/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/arghyaroy331/Daily-Coding/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
+| [1480-running-sum-of-1d-array](https://github.com/arghyaroy331/Daily-Coding/tree/master/1480-running-sum-of-1d-array) |
 | [1563-stone-game-v](https://github.com/arghyaroy331/Daily-Coding/tree/master/1563-stone-game-v) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/arghyaroy331/Daily-Coding/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/arghyaroy331/Daily-Coding/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
@@ -227,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0713-subarray-product-less-than-k](https://github.com/arghyaroy331/Daily-Coding/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/arghyaroy331/Daily-Coding/tree/master/0724-find-pivot-index) |
 | [1140-stone-game-ii](https://github.com/arghyaroy331/Daily-Coding/tree/master/1140-stone-game-ii) |
+| [1480-running-sum-of-1d-array](https://github.com/arghyaroy331/Daily-Coding/tree/master/1480-running-sum-of-1d-array) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/arghyaroy331/Daily-Coding/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/arghyaroy331/Daily-Coding/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1872-stone-game-viii](https://github.com/arghyaroy331/Daily-Coding/tree/master/1872-stone-game-viii) |
