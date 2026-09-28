@@ -162,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0836-rectangle-overlap](https://github.com/arghyaroy331/Daily-Coding/tree/master/0836-rectangle-overlap) |
 | [0877-stone-game](https://github.com/arghyaroy331/Daily-Coding/tree/master/0877-stone-game) |
 | [1140-stone-game-ii](https://github.com/arghyaroy331/Daily-Coding/tree/master/1140-stone-game-ii) |
+| [1342-number-of-steps-to-reduce-a-number-to-zero](https://github.com/arghyaroy331/Daily-Coding/tree/master/1342-number-of-steps-to-reduce-a-number-to-zero) |
 | [1401-circle-and-rectangle-overlapping](https://github.com/arghyaroy331/Daily-Coding/tree/master/1401-circle-and-rectangle-overlapping) |
 | [1406-stone-game-iii](https://github.com/arghyaroy331/Daily-Coding/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/arghyaroy331/Daily-Coding/tree/master/1510-stone-game-iv) |
@@ -321,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/arghyaroy331/Daily-Coding/tree/master/0287-find-the-duplicate-number) |
+| [1342-number-of-steps-to-reduce-a-number-to-zero](https://github.com/arghyaroy331/Daily-Coding/tree/master/1342-number-of-steps-to-reduce-a-number-to-zero) |
 | [1386-cinema-seat-allocation](https://github.com/arghyaroy331/Daily-Coding/tree/master/1386-cinema-seat-allocation) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/arghyaroy331/Daily-Coding/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/arghyaroy331/Daily-Coding/tree/master/3513-number-of-unique-xor-triplets-i) |
