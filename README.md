@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/arghyaroy331/Daily-Coding/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 | [1807-evaluate-the-bracket-pairs-of-a-string](https://github.com/arghyaroy331/Daily-Coding/tree/master/1807-evaluate-the-bracket-pairs-of-a-string) |
 | [1872-stone-game-viii](https://github.com/arghyaroy331/Daily-Coding/tree/master/1872-stone-game-viii) |
+| [1929-concatenation-of-array](https://github.com/arghyaroy331/Daily-Coding/tree/master/1929-concatenation-of-array) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/arghyaroy331/Daily-Coding/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2029-stone-game-ix](https://github.com/arghyaroy331/Daily-Coding/tree/master/2029-stone-game-ix) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/arghyaroy331/Daily-Coding/tree/master/2091-removing-minimum-and-maximum-from-array) |
@@ -347,6 +348,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1260-shift-2d-grid](https://github.com/arghyaroy331/Daily-Coding/tree/master/1260-shift-2d-grid) |
+| [1929-concatenation-of-array](https://github.com/arghyaroy331/Daily-Coding/tree/master/1929-concatenation-of-array) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/arghyaroy331/Daily-Coding/tree/master/3069-distribute-elements-into-two-arrays-i) |
 | [3498-reverse-degree-of-a-string](https://github.com/arghyaroy331/Daily-Coding/tree/master/3498-reverse-degree-of-a-string) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/arghyaroy331/Daily-Coding/tree/master/3867-sum-of-gcd-of-formed-pairs) |
