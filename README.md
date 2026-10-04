@@ -111,6 +111,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0115-distinct-subsequences](https://github.com/arghyaroy331/Daily-Coding/tree/master/0115-distinct-subsequences) |
 | [0152-maximum-product-subarray](https://github.com/arghyaroy331/Daily-Coding/tree/master/0152-maximum-product-subarray) |
 | [0486-predict-the-winner](https://github.com/arghyaroy331/Daily-Coding/tree/master/0486-predict-the-winner) |
+| [0678-valid-parenthesis-string](https://github.com/arghyaroy331/Daily-Coding/tree/master/0678-valid-parenthesis-string) |
 | [0877-stone-game](https://github.com/arghyaroy331/Daily-Coding/tree/master/0877-stone-game) |
 | [0918-maximum-sum-circular-subarray](https://github.com/arghyaroy331/Daily-Coding/tree/master/0918-maximum-sum-circular-subarray) |
 | [0940-distinct-subsequences-ii](https://github.com/arghyaroy331/Daily-Coding/tree/master/0940-distinct-subsequences-ii) |
@@ -209,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0344-reverse-string](https://github.com/arghyaroy331/Daily-Coding/tree/master/0344-reverse-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/arghyaroy331/Daily-Coding/tree/master/0387-first-unique-character-in-a-string) |
 | [0412-fizz-buzz](https://github.com/arghyaroy331/Daily-Coding/tree/master/0412-fizz-buzz) |
+| [0678-valid-parenthesis-string](https://github.com/arghyaroy331/Daily-Coding/tree/master/0678-valid-parenthesis-string) |
 | [0940-distinct-subsequences-ii](https://github.com/arghyaroy331/Daily-Coding/tree/master/0940-distinct-subsequences-ii) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/arghyaroy331/Daily-Coding/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1096-brace-expansion-ii](https://github.com/arghyaroy331/Daily-Coding/tree/master/1096-brace-expansion-ii) |
@@ -314,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/arghyaroy331/Daily-Coding/tree/master/0011-container-with-most-water) |
+| [0678-valid-parenthesis-string](https://github.com/arghyaroy331/Daily-Coding/tree/master/0678-valid-parenthesis-string) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/arghyaroy331/Daily-Coding/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1386-cinema-seat-allocation](https://github.com/arghyaroy331/Daily-Coding/tree/master/1386-cinema-seat-allocation) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/arghyaroy331/Daily-Coding/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
@@ -393,6 +396,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/arghyaroy331/Daily-Coding/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/arghyaroy331/Daily-Coding/tree/master/0145-binary-tree-postorder-traversal) |
 | [0234-palindrome-linked-list](https://github.com/arghyaroy331/Daily-Coding/tree/master/0234-palindrome-linked-list) |
+| [0678-valid-parenthesis-string](https://github.com/arghyaroy331/Daily-Coding/tree/master/0678-valid-parenthesis-string) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/arghyaroy331/Daily-Coding/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1096-brace-expansion-ii](https://github.com/arghyaroy331/Daily-Coding/tree/master/1096-brace-expansion-ii) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/arghyaroy331/Daily-Coding/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
@@ -534,6 +538,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/arghyaroy331/Daily-Coding/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/arghyaroy331/Daily-Coding/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/arghyaroy331/Daily-Coding/tree/master/0032-longest-valid-parentheses) |
+| [0678-valid-parenthesis-string](https://github.com/arghyaroy331/Daily-Coding/tree/master/0678-valid-parenthesis-string) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/arghyaroy331/Daily-Coding/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/arghyaroy331/Daily-Coding/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/arghyaroy331/Daily-Coding/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
