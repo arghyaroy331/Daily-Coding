@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/arghyaroy331/Daily-Coding/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/arghyaroy331/Daily-Coding/tree/master/0287-find-the-duplicate-number) |
 | [0486-predict-the-winner](https://github.com/arghyaroy331/Daily-Coding/tree/master/0486-predict-the-winner) |
+| [0560-subarray-sum-equals-k](https://github.com/arghyaroy331/Daily-Coding/tree/master/0560-subarray-sum-equals-k) |
 | [0628-maximum-product-of-three-numbers](https://github.com/arghyaroy331/Daily-Coding/tree/master/0628-maximum-product-of-three-numbers) |
 | [0713-subarray-product-less-than-k](https://github.com/arghyaroy331/Daily-Coding/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/arghyaroy331/Daily-Coding/tree/master/0724-find-pivot-index) |
@@ -243,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/arghyaroy331/Daily-Coding/tree/master/0209-minimum-size-subarray-sum) |
+| [0560-subarray-sum-equals-k](https://github.com/arghyaroy331/Daily-Coding/tree/master/0560-subarray-sum-equals-k) |
 | [0713-subarray-product-less-than-k](https://github.com/arghyaroy331/Daily-Coding/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/arghyaroy331/Daily-Coding/tree/master/0724-find-pivot-index) |
 | [1140-stone-game-ii](https://github.com/arghyaroy331/Daily-Coding/tree/master/1140-stone-game-ii) |
@@ -261,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/arghyaroy331/Daily-Coding/tree/master/0142-linked-list-cycle-ii) |
 | [0202-happy-number](https://github.com/arghyaroy331/Daily-Coding/tree/master/0202-happy-number) |
 | [0387-first-unique-character-in-a-string](https://github.com/arghyaroy331/Daily-Coding/tree/master/0387-first-unique-character-in-a-string) |
+| [0560-subarray-sum-equals-k](https://github.com/arghyaroy331/Daily-Coding/tree/master/0560-subarray-sum-equals-k) |
 | [1096-brace-expansion-ii](https://github.com/arghyaroy331/Daily-Coding/tree/master/1096-brace-expansion-ii) |
 | [1331-rank-transform-of-an-array](https://github.com/arghyaroy331/Daily-Coding/tree/master/1331-rank-transform-of-an-array) |
 | [1386-cinema-seat-allocation](https://github.com/arghyaroy331/Daily-Coding/tree/master/1386-cinema-seat-allocation) |
