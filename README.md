@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0835-image-overlap](https://github.com/arghyaroy331/Daily-Coding/tree/master/0835-image-overlap) |
 | [0877-stone-game](https://github.com/arghyaroy331/Daily-Coding/tree/master/0877-stone-game) |
 | [0918-maximum-sum-circular-subarray](https://github.com/arghyaroy331/Daily-Coding/tree/master/0918-maximum-sum-circular-subarray) |
+| [0974-subarray-sums-divisible-by-k](https://github.com/arghyaroy331/Daily-Coding/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1140-stone-game-ii](https://github.com/arghyaroy331/Daily-Coding/tree/master/1140-stone-game-ii) |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/arghyaroy331/Daily-Coding/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
 | [1260-shift-2d-grid](https://github.com/arghyaroy331/Daily-Coding/tree/master/1260-shift-2d-grid) |
@@ -254,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/arghyaroy331/Daily-Coding/tree/master/0560-subarray-sum-equals-k) |
 | [0713-subarray-product-less-than-k](https://github.com/arghyaroy331/Daily-Coding/tree/master/0713-subarray-product-less-than-k) |
 | [0724-find-pivot-index](https://github.com/arghyaroy331/Daily-Coding/tree/master/0724-find-pivot-index) |
+| [0974-subarray-sums-divisible-by-k](https://github.com/arghyaroy331/Daily-Coding/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1140-stone-game-ii](https://github.com/arghyaroy331/Daily-Coding/tree/master/1140-stone-game-ii) |
 | [1480-running-sum-of-1d-array](https://github.com/arghyaroy331/Daily-Coding/tree/master/1480-running-sum-of-1d-array) |
 | [1621-number-of-sets-of-k-non-overlapping-line-segments](https://github.com/arghyaroy331/Daily-Coding/tree/master/1621-number-of-sets-of-k-non-overlapping-line-segments) |
@@ -271,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/arghyaroy331/Daily-Coding/tree/master/0202-happy-number) |
 | [0387-first-unique-character-in-a-string](https://github.com/arghyaroy331/Daily-Coding/tree/master/0387-first-unique-character-in-a-string) |
 | [0560-subarray-sum-equals-k](https://github.com/arghyaroy331/Daily-Coding/tree/master/0560-subarray-sum-equals-k) |
+| [0974-subarray-sums-divisible-by-k](https://github.com/arghyaroy331/Daily-Coding/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1096-brace-expansion-ii](https://github.com/arghyaroy331/Daily-Coding/tree/master/1096-brace-expansion-ii) |
 | [1331-rank-transform-of-an-array](https://github.com/arghyaroy331/Daily-Coding/tree/master/1331-rank-transform-of-an-array) |
 | [1386-cinema-seat-allocation](https://github.com/arghyaroy331/Daily-Coding/tree/master/1386-cinema-seat-allocation) |
