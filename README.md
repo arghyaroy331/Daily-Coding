@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/arghyaroy331/Daily-Coding/tree/master/0053-maximum-subarray) |
 | [0152-maximum-product-subarray](https://github.com/arghyaroy331/Daily-Coding/tree/master/0152-maximum-product-subarray) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/arghyaroy331/Daily-Coding/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0189-rotate-array](https://github.com/arghyaroy331/Daily-Coding/tree/master/0189-rotate-array) |
 | [0209-minimum-size-subarray-sum](https://github.com/arghyaroy331/Daily-Coding/tree/master/0209-minimum-size-subarray-sum) |
 | [0283-move-zeroes](https://github.com/arghyaroy331/Daily-Coding/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/arghyaroy331/Daily-Coding/tree/master/0287-find-the-duplicate-number) |
@@ -183,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0189-rotate-array](https://github.com/arghyaroy331/Daily-Coding/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/arghyaroy331/Daily-Coding/tree/master/0202-happy-number) |
 | [0412-fizz-buzz](https://github.com/arghyaroy331/Daily-Coding/tree/master/0412-fizz-buzz) |
 | [0486-predict-the-winner](https://github.com/arghyaroy331/Daily-Coding/tree/master/0486-predict-the-winner) |
@@ -341,6 +343,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/arghyaroy331/Daily-Coding/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/arghyaroy331/Daily-Coding/tree/master/0142-linked-list-cycle-ii) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/arghyaroy331/Daily-Coding/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0189-rotate-array](https://github.com/arghyaroy331/Daily-Coding/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/arghyaroy331/Daily-Coding/tree/master/0202-happy-number) |
 | [0234-palindrome-linked-list](https://github.com/arghyaroy331/Daily-Coding/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/arghyaroy331/Daily-Coding/tree/master/0283-move-zeroes) |
