@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/arghyaroy331/Daily-Coding/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/arghyaroy331/Daily-Coding/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/arghyaroy331/Daily-Coding/tree/master/0145-binary-tree-postorder-traversal) |
+| [1267-count-servers-that-communicate](https://github.com/arghyaroy331/Daily-Coding/tree/master/1267-count-servers-that-communicate) |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/arghyaroy331/Daily-Coding/tree/master/2265-count-nodes-equal-to-average-of-subtree) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/arghyaroy331/Daily-Coding/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2685-count-the-number-of-complete-components](https://github.com/arghyaroy331/Daily-Coding/tree/master/2685-count-the-number-of-complete-components) |
@@ -20,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/arghyaroy331/Daily-Coding/tree/master/0102-binary-tree-level-order-traversal) |
 | [0301-remove-invalid-parentheses](https://github.com/arghyaroy331/Daily-Coding/tree/master/0301-remove-invalid-parentheses) |
 | [1096-brace-expansion-ii](https://github.com/arghyaroy331/Daily-Coding/tree/master/1096-brace-expansion-ii) |
+| [1267-count-servers-that-communicate](https://github.com/arghyaroy331/Daily-Coding/tree/master/1267-count-servers-that-communicate) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/arghyaroy331/Daily-Coding/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2685-count-the-number-of-complete-components](https://github.com/arghyaroy331/Daily-Coding/tree/master/2685-count-the-number-of-complete-components) |
 | [3310-remove-methods-from-project](https://github.com/arghyaroy331/Daily-Coding/tree/master/3310-remove-methods-from-project) |
@@ -27,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union-Find
 |  |
 | ------- |
+| [1267-count-servers-that-communicate](https://github.com/arghyaroy331/Daily-Coding/tree/master/1267-count-servers-that-communicate) |
 | [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/arghyaroy331/Daily-Coding/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/arghyaroy331/Daily-Coding/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2685-count-the-number-of-complete-components](https://github.com/arghyaroy331/Daily-Coding/tree/master/2685-count-the-number-of-complete-components) |
@@ -66,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1140-stone-game-ii](https://github.com/arghyaroy331/Daily-Coding/tree/master/1140-stone-game-ii) |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/arghyaroy331/Daily-Coding/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
 | [1260-shift-2d-grid](https://github.com/arghyaroy331/Daily-Coding/tree/master/1260-shift-2d-grid) |
+| [1267-count-servers-that-communicate](https://github.com/arghyaroy331/Daily-Coding/tree/master/1267-count-servers-that-communicate) |
 | [1288-remove-covered-intervals](https://github.com/arghyaroy331/Daily-Coding/tree/master/1288-remove-covered-intervals) |
 | [1301-number-of-paths-with-max-score](https://github.com/arghyaroy331/Daily-Coding/tree/master/1301-number-of-paths-with-max-score) |
 | [1331-rank-transform-of-an-array](https://github.com/arghyaroy331/Daily-Coding/tree/master/1331-rank-transform-of-an-array) |
@@ -157,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0835-image-overlap](https://github.com/arghyaroy331/Daily-Coding/tree/master/0835-image-overlap) |
 | [1260-shift-2d-grid](https://github.com/arghyaroy331/Daily-Coding/tree/master/1260-shift-2d-grid) |
+| [1267-count-servers-that-communicate](https://github.com/arghyaroy331/Daily-Coding/tree/master/1267-count-servers-that-communicate) |
 | [1301-number-of-paths-with-max-score](https://github.com/arghyaroy331/Daily-Coding/tree/master/1301-number-of-paths-with-max-score) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/arghyaroy331/Daily-Coding/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/arghyaroy331/Daily-Coding/tree/master/3568-minimum-moves-to-clean-the-classroom) |
@@ -438,6 +443,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/arghyaroy331/Daily-Coding/tree/master/0387-first-unique-character-in-a-string) |
+| [1267-count-servers-that-communicate](https://github.com/arghyaroy331/Daily-Coding/tree/master/1267-count-servers-that-communicate) |
 | [2029-stone-game-ix](https://github.com/arghyaroy331/Daily-Coding/tree/master/2029-stone-game-ix) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/arghyaroy331/Daily-Coding/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3312-sorted-gcd-pair-queries](https://github.com/arghyaroy331/Daily-Coding/tree/master/3312-sorted-gcd-pair-queries) |
